@@ -1,8 +1,8 @@
-# ontology_publication_template
-[![Check and deploy](https://github.com/materialdigital/ontology_publication_template/actions/workflows/workflow.yaml/badge.svg)](https://github.com/materialdigital/ontology_publication_template/actions/workflows/workflow.yaml)
+## Notes
+Ontology Publication template is taken from MaterialDigital initiative here ->https://github.com/materialdigital/ontology_publication_template<-
 
 ## Purpose
-This repo contains a minimal example of how ontologies could be published using github-pages while maintaining availability of definition files and documentation for older versions.
+This repo contains ontologies created in project ODE_AM, dealing with process and material data management. Regarded processes are Powder bed Fusion laser Beam Metal at Fraunhofer IGCV, Direct ENergy Deposition at TU Ilmenau and Composite Extrusion mdoeling at MFPA Weimar. Following different strategies of akquiring data, ontologies are used to structure the Informatin  
 
 ## Requirements as defined by HAP 4
 The requirements are specified in [Technical requirements for ontologies](README.md#technical-requirements-for-ontologies) and [Additional requirements for publishing ontologies](README.md#additional-requirements-for-publishing-ontologies).
