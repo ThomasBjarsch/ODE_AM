@@ -2,57 +2,55 @@
 
 ## Introduction
 
-This repository is dedicated to the ontologies developed within the ODE_AM project. The primary focus of this project is the systematic management of process and material data, encompassing three specific manufacturing processes: Powder Bed Fusion (PBF) Laser Beam Metal at Fraunhofer IGCV, Direct Energy Deposition (DED) at TU Ilmenau, and Composite Extrusion Modeling at MFPA Weimar. These ontologies serve as a structured framework for data acquisition strategies across these varied manufacturing domains.
+This repository hosts ontologies developed for the ODE_AM project, focusing on systematic management of process and material data. It encompasses three manufacturing processes: Powder Bed Fusion (PBF) Laser Beam Metal at Fraunhofer IGCV, Direct Energy Deposition (DED) at TU Ilmenau, and Composite Extrusion Modeling at MFPA Weimar. These ontologies form a structured framework for data acquisition strategies in these manufacturing domains and are integrated into various workflows for data import and visualization, identifying correlations between processing and material characteristics.
 
-## Usage
-The usage is given in combination withing a developed workflow and web-application, incordporating the ontologies as a backbone and mapping the different files and formats along the process chain to the ontology, whereas triples are stored in a triplestore and raw data are uploaded to the cloud for backup. The general workflow for powder bed fusion laser beam metal is shown here:
+![grafik](https://github.com/ThomasBjarsch/ODE_AM/assets/115726934/dee9a109-c188-4091-85e8-a006347a2267)
 
-![grafik](https://github.com/ThomasBjarsch/ODE_AM/assets/115726934/4bcbc461-2fdc-4397-a8e0-cc853ffe9c10)
+Method for ontology publication as taken from Platform Material Digital: [Material Digital Ontology Publication Template](https://github.com/materialdigital/ontology_publication_template)
 
+## Usage in Project
 
+The ontologies are utilized in conjunction with a developed workflow and web application. They serve as a backbone for mapping various files and formats along the process chain. Triples are stored in a triplestore, and raw data are uploaded to the cloud for backup. The general workflow for powder bed fusion laser beam metal using the web application is illustrated here:
 
+![grafik](https://github.com/ThomasBjarsch/ODE_AM/assets/115726934/ad1ca1a6-61fd-439a-bde5-d1463eb45657)
 
 ## Ontology Descriptions
 
 ### Fraunhofer IGCV Manufacturing Application Ontology
 
-This ontology encapsulates a broad range of classes that are pertinent to the manufacturing domain. It includes general classes that are applicable across various manufacturing fields, such as 'Machine', 'STL-File', and 'Steel'. This ontology aims to standardize and integrate diverse manufacturing concepts into a cohesive structure.
+This ontology covers a wide range of classes relevant to the manufacturing domain, including 'Machine', 'STL-File', and 'Steel', aiming to standardize and integrate various manufacturing concepts.
 
 ### Fraunhofer IGCV Additive Manufacturing Application Ontology
 
-Building upon the Manufacturing Application Ontology, this ontology specifically targets additive manufacturing. It encompasses parameters commonly employed in the additive manufacturing sector, such as 'Build Platform Temperature' and 'Layer Height'.
+Expanding on the Manufacturing Application Ontology, this ontology focuses on additive manufacturing, encompassing parameters like 'Build Platform Temperature' and 'Layer Height'.
 
 ### Fraunhofer IGCV Powder Bed Fusion Application Ontology
 
-Aligned with the project's focus, this ontology is tailored to the Powder Bed Fusion process. It includes classes representing various parameters and specifications unique to the Powder Bed Fusion process, particularly those used in the M290 machine by Electro Optical Systems GmbH.
+Specific to Powder Bed Fusion, this ontology includes classes for parameters and specifications unique to this process, particularly for the M290 machine by Electro Optical Systems GmbH.
 
 ## Class Generation Strategy
 
-The development of classes within these ontologies is driven by project-specific requirements. Wherever possible, pre-existing classes from the Basic Formal Ontology (BFO) and Common Core Ontologies (CCO) are leveraged, ensuring consistency and interoperability with established ontological standards.
+Class development is driven by project-specific needs, utilizing pre-existing classes from the Basic Formal Ontology (BFO) and Common Core Ontologies (CCO) for consistency and interoperability.
 
-## Hierarchical Structure
+## Reused Ontologies
 
 ### Top-Level Ontology
 
-The Basic Formal Ontology (BFO) is employed as the top-level ontology, providing a high-level conceptual framework that underpins the entire ontological structure.
+BFO is used as the top-level ontology, providing a foundational conceptual framework.
 
 ### Mid-Level Ontologies
 
-At the mid-level, Common Core Ontologies (CCO) are used. These ontologies provide a more detailed and domain-specific layer of categorization, bridging the gap between the abstract concepts in BFO and the specific classes in the project's ontologies.
+CCO are employed at the mid-level, offering detailed, domain-specific categorization.
+
+## Publications
+
+- PBF-LB/M data management using the developed web app was presented at FEMS EUROMAT 2023 by Thomas Bjarsch: _"Ontology-based material data management in metal additive manufacturing domain"_. The written conference paper is in progress.
+- A publication for a special issue in "Advanced Engineering Materials" is ongoing.
 
 ## Methodological Approach
-Publications:
-- PBF-LB/M Datamanagament using developed web-app has been presented at FEMS EUROMAT 2023:
-  Thomas Bjarsch: MAKE THIS CURSIVE:Ontology-based material data management in metal additive manufacturing domain
-  The written conference Beitrag is work in progress.
-- Publication for a special issue in "Advancded Engineering Materials" is ongoing.
 
-## Methodological Approach
+Class generation is based on expert interviews on factors influencing material properties, ensuring relevance and integration of BFO and CCO classes for coherence. A detailed discussion of the methodology is available here: [Methodology Video](https://www.youtube.com/watch?v=s1bka7RIBN4)
 
-### Class Generation and Integration
+## Class Documentation
 
-The methodology for generating classes within these ontologies is based on the relevance to the ODE_AM project, in this case taken by expert's interviews on possible influencing factors on material properties. A selective approach ensures that only pertinent classes are developed, while existing classes from BFO and CCO are adapted and integrated to maintain coherence and compatibility with broader ontological frameworks.
-
-### Implementation and Application
-
-An important aspect of this project is the implementation of a web application for efficient data import and visualization. This application serves as a practical tool for leveraging
+Class documentation, based on labels and definitions, is automatically generated and will be available here: [Link TBD]
