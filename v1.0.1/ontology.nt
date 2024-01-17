@@ -1,0 +1,85 @@
+<https://w3id.org/pmd/ont_pub_tmplt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/pmd/ont_pub_tmplt> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/pmd/ont_pub_tmplt/1.0.1> .
+<https://w3id.org/pmd/ont_pub_tmplt> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov-o-inverses-20130430> .
+<https://w3id.org/pmd/ont_pub_tmplt> <http://purl.org/dc/elements/1.1/creator> "John Doe" .
+<https://w3id.org/pmd/ont_pub_tmplt> <http://purl.org/dc/terms/created> "2023-11-21" .
+<https://w3id.org/pmd/ont_pub_tmplt> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/pmd/ont_pub_tmplt> <http://purl.org/dc/terms/title> "Example Ontology Stub"@en .
+<https://w3id.org/pmd/ont_pub_tmplt> <http://www.w3.org/2000/01/rdf-schema#comment> "Example Ontology Stub"@en .
+<https://w3id.org/pmd/ont_pub_tmplt> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000114
+<http://purl.obolibrary.org/obo/IAO_0000114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000117
+<http://purl.obolibrary.org/obo/IAO_0000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation
+<https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/pmd/ont_pub_tmplt/exampleRelation> .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000428> .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: John Doe" .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Example Inverse Relation"@en .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleInverseRelation> <http://www.w3.org/2004/02/skos/core#definition> "An example inverse relation"@en .
+# 
+# https://w3id.org/pmd/ont_pub_tmplt/exampleRelation
+<https://w3id.org/pmd/ont_pub_tmplt/exampleRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleRelation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleRelation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleRelation> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000428> .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleRelation> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: John Doe" .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Example Relation"@en .
+<https://w3id.org/pmd/ont_pub_tmplt/exampleRelation> <http://www.w3.org/2004/02/skos/core#definition> "An example relation"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub
+<https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000428> .
+<https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: John Doe" .
+<https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/pmd/ont_pub_tmplt> .
+<https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> <http://www.w3.org/2000/01/rdf-schema#label> "Example Class Stub"@en .
+<https://w3id.org/pmd/ont_pub_tmplt/ExampleClassStub> <http://www.w3.org/2004/02/skos/core#definition> "An example Class"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
