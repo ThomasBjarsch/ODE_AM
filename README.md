@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This repository hosts ontologies developed for the ODE_AM project ([ODE_AM]((https://www.materialdigital.de/project/13)), focusing on semantic modeling of the additive manufacturing process and management of process planning parameters as well as material data. It encompasses three manufacturing processes: Powder Bed Fusion (PBF) Laser Beam Metal at Fraunhofer IGCV, Direct Energy Deposition (DED) at TU Ilmenau, and Composite Extrusion Modeling at MFPA Weimar. These ontologies form a structured framework for data acquisition strategies in these manufacturing domains and are integrated into various workflows for data import and visualization, identifying correlations between process parameters and material characteristics.
+This repository hosts ontologies developed for the ODE_AM project ([ODE_AM](https://www.materialdigital.de/project/13)), focusing on semantic modeling of the additive manufacturing process and management of process planning parameters as well as material data. It encompasses three manufacturing processes: Powder Bed Fusion (PBF) Laser Beam Metal at Fraunhofer IGCV, Direct Energy Deposition (DED) at TU Ilmenau, and Composite Extrusion Modeling at MFPA Weimar. These ontologies form a structured framework for data acquisition strategies in these manufacturing domains and are integrated into various workflows for data import and visualization, identifying correlations between process parameters and material characteristics.
 
 ![grafik](https://github.com/ThomasBjarsch/ODE_AM/assets/115726934/f8c4b1bc-921d-491e-a132-919ac1bf42b0)
 
