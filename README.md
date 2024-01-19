@@ -2,37 +2,72 @@
 
 ## Introduction
 
-This repository hosts ontologies developed for the ODE_AM project, focusing on systematic management of process and material data. It encompasses three manufacturing processes: Powder Bed Fusion (PBF) Laser Beam Metal at Fraunhofer IGCV, Direct Energy Deposition (DED) at TU Ilmenau, and Composite Extrusion Modeling at MFPA Weimar. These ontologies form a structured framework for data acquisition strategies in these manufacturing domains and are integrated into various workflows for data import and visualization, identifying correlations between processing and material characteristics.
+This repository hosts ontologies developed for the ODE_AM project (ODE_AM), focusing on semantic modeling of the additive manufacturing process and management of process planning parameters as well as material data. It encompasses three manufacturing processes: Powder Bed Fusion (PBF) Laser Beam Metal at Fraunhofer IGCV, Direct Energy Deposition (DED) at TU Ilmenau, and Composite Extrusion Modeling at MFPA Weimar. These ontologies form a structured framework for data acquisition strategies in these manufacturing domains and are integrated into various workflows for data import and visualization, identifying correlations between process parameters and material characteristics.
 
-![grafik](https://github.com/ThomasBjarsch/ODE_AM/assets/115726934/dee9a109-c188-4091-85e8-a006347a2267)
+![grafik](https://github.com/ThomasBjarsch/ODE_AM/assets/115726934/f8c4b1bc-921d-491e-a132-919ac1bf42b0)
 
 Method for ontology publication as taken from Platform Material Digital: [Material Digital Ontology Publication Template](https://github.com/materialdigital/ontology_publication_template)
 
+## Authors
+
+- **Manufacturing Application Ontology:**
+  - Thomas Bjarsch (Fraunhofer IGCV)
+
+- **Additive Manufacturing Application Ontology:**
+  - Thomas Bjarsch (Fraunhofer IGCV)
+
+- **Powder Bed Fusion Application Ontology:**
+  - Thomas Bjarsch (Fraunhofer IGCV)
+
+- **Wire Arc Additive Manufacturing Ontology:**
+  - Jan Reimann (TU Ilmenau), Mohamed Kamal (IDAC, TUHH)
+
+- **Composite Extrusion Modeling Ontology:**
+  - Heiko Beinersdorf (MFPA Weimar), Mohamed Kamal (IDAC, TUHH)
+
+- **Mechanical Testing Ontology:**
+  - Mohamed Kamal (IDAC, TUHH)
+
 ## Usage in Project
 
-The ontologies are utilized in conjunction with a developed workflow and web application. They serve as a backbone for mapping various files and formats along the process chain. Triples are stored in a triplestore, and raw data are uploaded to the cloud for backup. The general workflow for powder bed fusion laser beam metal using the web application is illustrated here:
+The ontologies are utilized in conjunction with a developed workflow and web application. They serve as a backbone for mapping various files and formats along the process chain. Triples are stored in a triplestore, and raw data are uploaded to the cloud for backup. 
+
+Exemplary the the general workflow for powder bed fusion laser beam metal using the web application is illustrated here:
+
+![grafik](https://github.com/ThomasBjarsch/ODE_AM/assets/115726934/dee9a109-c188-4091-85e8-a006347a2267)
 
 ![grafik](https://github.com/ThomasBjarsch/ODE_AM/assets/115726934/ad1ca1a6-61fd-439a-bde5-d1463eb45657)
 
 ## Ontology Descriptions
 
-### Fraunhofer IGCV Manufacturing Application Ontology
+### Manufacturing Application Ontology
 
 This ontology covers a wide range of classes relevant to the manufacturing domain, including 'Machine', 'STL-File', and 'Steel', aiming to standardize and integrate various manufacturing concepts.
 
-### Fraunhofer IGCV Additive Manufacturing Application Ontology
+### Additive Manufacturing Application Ontology
 
 Expanding on the Manufacturing Application Ontology, this ontology focuses on additive manufacturing, encompassing parameters like 'Build Platform Temperature' and 'Layer Height'.
 
-### Fraunhofer IGCV Powder Bed Fusion Application Ontology
+### Powder Bed Fusion Application Ontology
 
 Specific to Powder Bed Fusion, this ontology includes classes for parameters and specifications unique to this process, particularly for the M290 machine by Electro Optical Systems GmbH.
+
+### Wire Arc Additive Manufacturing Ontology
+Specific to wire arc additive manufacturing, this ontology includes classes for parameters and specifications unique to this process.
+
+### Composite Extrusion Modeling Ontology
+Specific to composite extrusion modeling process, this ontology includes classes for parameters and specifications unique to this process.
+
 
 ## Class Generation Strategy
 
 Class development is driven by project-specific needs, utilizing pre-existing classes from the Basic Formal Ontology (BFO) and Common Core Ontologies (CCO) for consistency and interoperability.
 
 ## Reused Ontologies
+
+### Overview of Ontology Import-Structure
+![grafik](https://github.com/ThomasBjarsch/ODE_AM/assets/115726934/edfb379d-7503-4a8f-958d-dc4be9809c51)
+
 
 ### Top-Level Ontology
 
